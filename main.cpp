@@ -5,32 +5,22 @@
 #include <QScreen>
 
 
+
+
+
 int main(int argc, char *argv[])
 {
-
 
 
     QApplication a(argc, argv);
     a.setOverrideCursor(Qt::BlankCursor);
 
     //get the screen size for fullscreen
-//    QSize sizeasdf = QScreen::size();
-
-
     QScreen *srn = QApplication::screens().at(0);
-     QSize sizeasdf = srn->size();
-//    qreal dotsPerInch = (qreal)srn->logicalDotsPerInch();
-
-
-
-
-
-
-
+    QSize screensize = srn->size();
 
     Scene scene;
-//    scene.setSceneRect(0.0, 0.0, 12/*sizeasdf.width()*/, 12/*sizeasdf.height()*/);
-        scene.setSceneRect(0.0, 0.0, sizeasdf.width()-10, sizeasdf.height()-100);
+    scene.setSceneRect(0.0, 0.0, screensize.width()-10, screensize.height()-10);
     scene.setBackgroundBrush(Qt::black);
 
 

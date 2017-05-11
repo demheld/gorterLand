@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.0.2, 2017-05-11T20:00:48. -->
+<!-- Written by QtCreator 4.0.2, 2017-05-11T22:31:37. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -305,8 +305,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">roadtogorter_v2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/georg/programmieren/roadtogorter_v2/roadtogorter_v2.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">roadtogorter_v22</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/georg/programmieren/gorterLand/roadtogorter_v2.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">roadtogorter_v2.pro</value>

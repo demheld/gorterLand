@@ -58,8 +58,10 @@
 
 static const double Pi = 3.14159265358979323846264338327950288419717;
 static double TwoPi = 2.0 * Pi;
-//int myQGraphicsItemID = 65536+1;
 
+/*ToDo: Dringen flicken. Sollte dynamisch sein!!*/
+#define SCREENSIZEX 1920
+#define SCREENSIZEY 1200
 
 static qreal normalizeAngle(qreal angle)
 {
@@ -75,7 +77,7 @@ Mouse::Mouse()
     : angle(0), speed(0), mouseEyeDirection(0), color(qrand() % 256, qrand() % 256, qrand() % 256)        /*Das sind die privaten variabeln, die beim konstruieren ohne zusatz genommen werden.*/
 {
     setRotation(qrand() % (360 * 16));                                                                    /*Ist von Qgraphics*/
-    setPos(500,500);
+    setPos(qrand() % (SCREENSIZEX-200),qrand()% (SCREENSIZEY-200));
 }
 
 
